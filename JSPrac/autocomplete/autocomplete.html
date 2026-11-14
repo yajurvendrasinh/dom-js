@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./autocomplete.css" />
+  </head>
+  <body>
+    <main>
+      <section>
+        <input
+          type="search"
+          id="search"
+          placeholder="Type to search"
+          aria-label="search input"
+        />
+      </section>
+      <section id="results"></section>
+    </main>
+
+    <template>
+      <div class="card-container">
+        <p class="country-name" id="country-name"></p>
+        <p class="country-capital" id="'country-capital"></p>
+        <sub class="country-abbr" id="'country-abbr"></sub>
+      </div>
+    </template>
+  </body>
+  <script src="./autocomplete.js" defer></script>
+</html>
